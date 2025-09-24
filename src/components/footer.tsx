@@ -6,7 +6,7 @@ export function Footer() {
     {
       title: "Solutions",
       links: [
-        { name: "DeepChain Analytics", href: "#" },
+        { name: "Solido Money", href: "https://app.solido.money" },
         { name: "NeuraFlow AI", href: "#" },
         { name: "QuantumSync Protocol", href: "#" },
         { name: "Custom Development", href: "#" }
@@ -65,11 +65,11 @@ export function Footer() {
             <div className="space-y-2 sm:space-y-3 mb-4 sm:mb-6">
               <div className="flex items-center text-gray-300">
                 <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-2 sm:mr-3 text-[#00ffff] flex-shrink-0" />
-                <span className="text-xs sm:text-sm truncate">hello@devtas.tech</span>
+                <span className="text-xs sm:text-sm truncate">contact@devtas.tech</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-3 h-3 sm:w-4 sm:h-4 mr-2 sm:mr-3 text-[#39ff14] flex-shrink-0" />
-                <span className="text-xs sm:text-sm">San Francisco, CA</span>
+                <span className="text-xs sm:text-sm">Hyderabad, India</span>
               </div>
             </div>
 

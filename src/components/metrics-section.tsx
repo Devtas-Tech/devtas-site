@@ -33,12 +33,9 @@ export function MetricsSection() {
   ];
 
   const partners = [
-    { name: "TechCorp", logo: "TC" },
-    { name: "InnovateLabs", logo: "IL" },
-    { name: "FutureSoft", logo: "FS" },
-    { name: "QuantumTech", logo: "QT" },
-    { name: "AI Dynamics", logo: "AD" },
-    { name: "BlockVentures", logo: "BV" }
+    { name: "  Sony  ", logo: " Sony " },
+    { name: " Botanix  ", logo: "Botanix" },
+    { name: " Supra ", logo: "Supra" },
   ];
 
   return (

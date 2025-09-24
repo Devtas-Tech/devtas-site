@@ -4,7 +4,7 @@ export function OverviewSection() {
   const pillars = [
     {
       icon: Link,
-      title: "Blockchain",
+      title: "Web3",
       description: "Building decentralized infrastructure that transforms how digital value is created, managed, and transferred across networks.",
       color: "from-[#00ffff] to-[#0066ff]",
       shadowColor: "shadow-[#00ffff]/20"
@@ -77,11 +77,11 @@ export function OverviewSection() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-12 sm:mt-16">
+        {/* <div className="text-center mt-12 sm:mt-16">
           <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full bg-gradient-to-r from-[#00ffff]/20 to-[#39ff14]/20 border border-[#00ffff]/30 backdrop-blur-sm">
             <span className="text-[#00ffff] font-medium text-sm sm:text-base">🔬 Discover how we're shaping the future of technology</span>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

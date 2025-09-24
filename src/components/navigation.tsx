@@ -20,7 +20,7 @@ export function Navigation() {
       label: "Solutions", 
       href: "#solutions",
       submenu: [
-        { label: "DeepChain Analytics", href: "#deepchain" },
+        { label: "Solido Money", href: "https://app.solido.money" },
         { label: "NeuraFlow AI", href: "#neuraflow" },
         { label: "QuantumSync Protocol", href: "#quantumsync" }
       ]
@@ -77,13 +77,13 @@ export function Navigation() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button 
+            {/* <Button 
               variant="outline" 
               size="sm"
               className="border-[#2d2d44]/60 text-gray-300 hover:border-[#00ffff]/30 hover:text-[#00ffff] hover:bg-[#00ffff]/5 transition-all duration-300"
             >
               Sign In
-            </Button>
+            </Button> */}
             <Button 
               size="sm"
               className="bg-gradient-to-r from-[#00ffff] to-[#39ff14] text-black font-medium hover:shadow-lg hover:shadow-[#00ffff]/20 transition-all duration-300"

@@ -146,7 +146,7 @@ export function ContactSection() {
                     </div>
                     <div className="min-w-0">
                       <p className="text-gray-300 text-xs sm:text-sm">Email</p>
-                      <p className="text-white font-medium text-sm sm:text-base truncate">hello@devtas.tech</p>
+                      <p className="text-white font-medium text-sm sm:text-base truncate">contact@devtas.tech</p>
                     </div>
                   </div>
                   
@@ -156,7 +156,11 @@ export function ContactSection() {
                     </div>
                     <div className="min-w-0">
                       <p className="text-gray-300 text-xs sm:text-sm">Location</p>
-                      <p className="text-white font-medium text-sm sm:text-base">San Francisco, CA</p>
+                      <p className="text-white font-medium text-sm sm:text-base">Hyderabad, India</p>
+                      <p className="text-white font-medium text-sm sm:text-base">Bangalore, India</p>
+                      <p className="text-white font-medium text-sm sm:text-base">Mumbai, India</p>
+
+
                     </div>
                   </div>
                 </div>
@@ -168,9 +172,8 @@ export function ContactSection() {
                 
                 <div className="flex space-x-3 sm:space-x-4">
                   {[
-                    { icon: Github, label: "GitHub", color: "from-[#00ffff] to-[#0066ff]" },
-                    { icon: Linkedin, label: "LinkedIn", color: "from-[#ff00ff] to-[#8a2be2]" },
-                    { icon: Twitter, label: "Twitter", color: "from-[#39ff14] to-[#00ff80]" }
+                    { icon: Linkedin, label: "LinkedIn", color: "from-[#ff00ff] to-[#8a2be2]", link: "https://www.linkedin.com/in/mohit-rakhade/" },
+                    { icon: Twitter, label: "Twitter", color: "from-[#39ff14] to-[#00ff80]", link: "https://x.com/mohitrakhade20" }
                   ].map((social, index) => (
                     <div
                       key={index}

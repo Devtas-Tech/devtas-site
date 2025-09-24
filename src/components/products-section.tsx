@@ -5,50 +5,50 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function ProductsSection() {
   const products = [
     {
-      id: "deepchain",
-      title: "DeepChain Analytics",
+      id: "solido",
+      title: "Solido Money",
       subtitle: "Blockchain Intelligence Platform",
-      description: "Advanced blockchain analytics and monitoring with AI-powered insights. Track transactions, detect patterns, and ensure compliance across multiple blockchain networks in real-time.",
+      description: "The HyperApp on Move unlocking on-chain yield & liquidity. A decentralized, trustless, and non-custodial protocol that enables users to earn yield on their crypto assets while maintaining full control and liquidity.",
       image: "https://images.unsplash.com/photo-1660836814985-8523a0d713b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibG9ja2NoYWluJTIwdGVjaG5vbG9neSUyMG5ldHdvcmslMjBkYXJrfGVufDF8fHx8MTc1ODEwODIyOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       icon: BarChart3,
       color: "from-[#00ffff] to-[#0066ff]",
       features: [
-        "Real-time transaction monitoring",
-        "Cross-chain analytics",
-        "Compliance automation",
-        "Risk assessment algorithms"
+        "Meet $SOLID: The Token Powering AutoFi's Liquidity Brain",
+        "Solido Raised $800K in Funding from Top Investors",
+        "Solido Flow is Live: Stake $SUPRA Without Losing Liquidity",
+        "Gateway to AutoFi on Supra"
       ],
       metrics: { transactions: "50M+", networks: "15+", accuracy: "99.7%" }
     },
     {
       id: "neuraflow",
-      title: "NeuraFlow AI",
-      subtitle: "Autonomous Decision Engine", 
-      description: "Next-generation AI platform that combines machine learning, natural language processing, and computer vision to create intelligent automation workflows for enterprise applications.",
+      title: "Mixion ",
+      subtitle: "Shape Sound. Remix Ideas. Launch Tracks.", 
+      description: "You’re methodical, detail-oriented, and proactive — exactly what this idea needs. When you’re ready, I can help write early outreach DMs, build your roadmap in Notion, or even review your wireframes. Just say the word and I’m on it.",
       image: "https://images.unsplash.com/photo-1645839078449-124db8a049fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwxfHx8fDE3NTgwMjE0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       icon: Brain,
       color: "from-[#ff00ff] to-[#8a2be2]",
       features: [
-        "Adaptive learning algorithms",
-        "Multi-modal AI processing",
-        "Automated workflow optimization",
-        "Edge computing integration"
+        "AI-Powered Music Creation",
+        "Collaborative Remixing Platform",
+        "Vast Library of Sound Samples",
+        "Seamless Integration with DAWs"
       ],
       metrics: { models: "500+", accuracy: "94.8%", speed: "<50ms" }
     },
     {
       id: "quantumsync",
-      title: "QuantumSync Protocol",
-      subtitle: "Next-Gen Security Framework",
-      description: "Revolutionary quantum-resistant encryption and synchronization protocol designed for the post-quantum era. Ensures data integrity and security across distributed systems.",
-      image: "https://images.unsplash.com/photo-1695462131550-24be3156b25d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdWFudHVtJTIwY29tcHV0ZXIlMjB0ZWNobm9sb2d5JTIwbGFifGVufDF8fHx8MTc1ODEwODIzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      title: "Brock",
+      subtitle: "",
+      description: "Bitcoin Runes and Ordinals on Click is a decentralized launchpad protocol that democratizes the creation and trading of Bitcoin Runes (fungible tokens) and Ordinals (NFTs) with a seamless, one-click experience",      
+      image: "https://i.postimg.cc/sDg6SwC6/Screenshot-2025-09-24-at-10-04-20-PM.png'",
       icon: Shield,
       color: "from-[#39ff14] to-[#00ff80]",
       features: [
-        "Quantum-resistant encryption",
-        "Zero-knowledge protocols",
-        "Distributed consensus",
-        "Post-quantum cryptography"
+       "One-Click Bitcoin Runes & Ordinals Launchpad",
+        "Decentralized & Trustless Protocol",
+        "Low Fees with Lightning Network",
+        "Community Governance & DAO Integration"
       ],
       metrics: { encryption: "2048-bit", nodes: "1000+", latency: "<10ms" }
     }
@@ -193,7 +193,7 @@ export function ProductsSection() {
             <p className="text-gray-300 mb-6 sm:mb-8 text-sm sm:text-base px-4">
               Join leading organizations already leveraging our cutting-edge solutions to drive innovation and growth.
             </p>
-            
+            <a href="https://calendly.com/mohitrakhade20/30min" target="_blank" rel="noopener noreferrer">
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
               <Button 
                 size="lg"
@@ -211,6 +211,7 @@ export function ProductsSection() {
                 View All Products
               </Button>
             </div>
+            </a>
           </div>
         </div>
       </div>
